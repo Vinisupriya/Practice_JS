@@ -8,10 +8,10 @@ console.log (scoreDolphins ,scoreKoalas )
 const checkWiner = function (avgDolphins , avgKoalas){
  if (avgDolphins < 2*avgKoalas)
  {
-    consolre.log()
+    consolre.log(`Dolphins wins ${avgDolphins}` vs . ${avgKoalas})
  }else if (avgKoalas < 2*avgDolphins){
-    console.log()
+    console.log(`Koalas wins`)
  }else{
-    console.log()
+    console.log(`No one wins`)
  }
 }
