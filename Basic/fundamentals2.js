@@ -15,3 +15,6 @@ const checkWiner = function (avgDolphins , avgKoalas){
     console.log(`No one wins`)
  }
 }
+
+/* Array*/
+array 
