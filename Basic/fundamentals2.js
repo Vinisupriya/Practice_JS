@@ -1,4 +1,4 @@
-/* Function */
+/* Function 
 
 const calcAverage = (a+b+c) => (a+b+c)/3;
 const scoreDolphins  = calcAverage (44,23,71)
@@ -17,4 +17,19 @@ const checkWiner = function (avgDolphins , avgKoalas){
 }
 
 /* Array*/
-array 
+const calsbil = function (bills){
+if (bill <= 50 && bill >= 300) {
+   tip = ((15 / 100) * bill)
+   total = (bill + tip)
+   console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${total}.`)
+}
+else {
+   tip = ((20 / 100) * bill)
+   total = (bill + tip)
+   console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${total}.`)
+
+}
+
+}
+const bills = [125,555,44];
+const tips =[ calsbil(bills[0]),calsbil(bills[1]),calsbil(bills[2])];
